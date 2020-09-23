@@ -303,14 +303,7 @@ body{
     animation: move-cloud 20s linear infinite;
 }
 
-@keyframes move-cloud {
-    0% {
-        left: 130%;
-    }
-    100% {
-        left: -30%;
-    }
-}    
+ 
 /* 
 @keyframes roll {
     0% {
@@ -321,8 +314,13 @@ body{
     }
 } */
 
-@media (min-width:1080px){
-    .ground{
-        overflow: hidden;
-    }
+@media (min-width:800px){
+    @keyframes move-cloud {
+        0% {
+            left: 130%;
+        }
+        100% {
+            left: -30%;
+        }
+    }   
 }
