@@ -169,7 +169,7 @@ body{
     overflow: hidden;
     position: relative;
     width: var(--size);
-    animation: roll 1s linear infinite;
+    /* animation: roll 1s linear infinite; */
 }
 
 .lines {
