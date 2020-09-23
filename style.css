@@ -311,7 +311,7 @@ body{
         left: -30%;
     }
 }    
-
+/* 
 @keyframes roll {
     0% {
        transform: rotate(0);
@@ -319,7 +319,7 @@ body{
     100% {
         transform: rotate(360deg);
     }
-}
+} */
 
 @media (min-width:1080px){
     .ground{
