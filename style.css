@@ -169,7 +169,6 @@ body{
     overflow: hidden;
     position: relative;
     width: var(--size);
-    /* animation: roll 1s linear infinite; */
 }
 
 .lines {
@@ -304,7 +303,7 @@ body{
 }
 
  
-/* 
+
 @keyframes roll {
     0% {
        transform: rotate(0);
@@ -312,7 +311,18 @@ body{
     100% {
         transform: rotate(360deg);
     }
-} */
+}
+
+
+    
+@keyframes roll {
+    0% {
+    transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 @media (min-width:800px){
     @keyframes move-cloud {
@@ -323,4 +333,10 @@ body{
             left: -30%;
         }
     }   
+}
+
+@media (min-width:800px){    
+    .body {
+        animation: roll 1s linear infinite;
+    }
 }
