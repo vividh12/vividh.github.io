@@ -324,6 +324,20 @@ body{
     }
 }
 
+    /* @keyframes move-cloud {
+        0% {
+            left: 130%;
+        }
+        100% {
+            left: -30%;
+        }
+    }    */
+    
+
+.body {
+    animation: roll 1s linear infinite;
+}
+
 @media (min-width:800px){
     @keyframes move-cloud {
         0% {
@@ -335,8 +349,14 @@ body{
     }   
 }
 
-@media (min-width:800px){    
+/* @media (min-width:800px){    
     .body {
         animation: roll 1s linear infinite;
+    }
+} */
+
+@media (min-width:800px){    
+    h1{
+        font-size: 70px !important;
     }
 }
